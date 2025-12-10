@@ -10,6 +10,7 @@ on:
   push:
     branches: 
       - main
+      - arm64-runner
   workflow_dispatch:
     inputs:
       tag:
