@@ -213,7 +213,7 @@ jobs:
             target: x64
             rust_target: x86_64-pc-windows-msvc
           - runner: windows-11-arm
-            target: arm64
+            target: aarch64-pc-windows-msvc
             rust_target: aarch64-pc-windows-msvc
         python-version:
           - 3.14
